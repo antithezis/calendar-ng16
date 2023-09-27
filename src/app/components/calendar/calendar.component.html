@@ -1,0 +1,23 @@
+<div class="calendar-container">
+    <div class="calendar-header">
+      <button (click)="prevMonth()">←</button>
+      <span>{{ currentMonth }} {{ currentYear }}</span>
+      <button (click)="nextMonth()">→</button>
+    </div>
+  
+    <div class="calendar-grid">
+      <div class="day-name" *ngFor="let day of daysOfWeek"> <h3>{{ day }}</h3></div>
+      <div class="day-cell" *ngFor="let day of daysInMonth"
+      [ngClass]="{'has-event': day && hasEventsForDate(generateDateString(currentYear, currentMonthIndex, day))}">
+        <div class="cell-header">
+          <span class="day-number"> 8.75 </span>
+          <span class="month-day">{{ day }}</span>
+        </div>
+        <div class="event" *ngFor="let event of getEventsForDate(generateDateString(currentYear, currentMonthIndex, day))" [ngClass]="{'event-type1': event.type === 'type1', 
+                   'event-type2': event.type === 'evento', 
+                   'event-type3': event.type === 'reunion'}"> <!-- y así sucesivamente para cada tipo -->
+          {{ event.title }}
+        </div>
+      </div>
+    </div>
+  </div>

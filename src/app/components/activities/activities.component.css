@@ -1,0 +1,18 @@
+.activities {
+    background-color: rgba(0, 169, 230, 255);
+    color: white;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+}
+
+.container {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.title {
+    margin-top: 5.5rem;
+}

@@ -1,0 +1,129 @@
+[
+    {
+      "title": "Reunión con el equipo",
+      "msg": "Revisar avances del proyecto.",
+      "date": "2023-09-01",
+      "type": "type1"
+    },
+    {
+      "title": "Entrega de informe",
+      "msg": "Entregar el informe financiero a la dirección.",
+      "date": "2023-09-01",
+      "type": "reunion"
+    },
+    {
+      "title": "Cumpleaños de Juan",
+      "msg": "No olvidar comprar un regalo.",
+      "date": "2023-09-02",
+      "type": "reunion"
+    },
+    {
+      "title": "Capacitación",
+      "msg": "Capacitación en herramientas digitales.",
+      "date": "2023-09-03",
+      "type": "type1"
+    },
+    {
+      "title": "Reunión con clientes",
+      "msg": "Presentar propuesta de proyecto.",
+      "date": "2023-09-04",
+      "type": "reunion"
+    },
+    {
+      "title": "Taller de diseño",
+      "msg": "Taller para el equipo de diseño.",
+      "date": "2023-09-05",
+      "type": "type1"
+    },
+    {
+      "title": "Revisión de contratos",
+      "msg": "Revisión con el departamento legal.",
+      "date": "2023-09-06",
+      "type": "type1"
+    },
+    {
+      "title": "Evento adicional 1",
+      "msg": "Evento no visible si hay límite de 3 por día.",
+      "date": "2023-09-06",
+      "type": "reunion"
+    },
+    {
+      "title": "Evento adicional 2",
+      "msg": "Evento no visible si hay límite de 3 por día.",
+      "date": "2023-09-06",
+      "type": "evento"
+    },
+    {
+      "title": "Evento adicional 3",
+      "msg": "Evento no visible si hay límite de 3 por día.",
+      "date": "2023-09-06",
+      "type": "evento"
+    },
+    {
+      "title": "Evento adicional 2",
+      "msg": "Evento no visible si hay límite de 3 por día.",
+      "date": "2023-09-30",
+      "type": "evento"
+    },
+    {
+      "title": "Evento adicional 3",
+      "msg": "Evento no visible si hay límite de 3 por día.",
+      "date": "2023-09-31",
+      "type": "evento"
+    },
+    {
+      "title": "Evento adicional 2",
+      "msg": "Evento no visible si hay límite de 3 por día.",
+      "date": "2023-09-07",
+      "type": "evento"
+    },
+    {
+      "title": "Evento adicional 3",
+      "msg": "Evento no visible si hay límite de 3 por día.",
+      "date": "2023-09-07",
+      "type": "evento"
+    },
+    {
+      "title": "Evento adicional 2",
+      "msg": "Evento no visible si hay límite de 3 por día.",
+      "date": "2023-09-08",
+      "type": "evento"
+    },
+    {
+      "title": "Evento adicional 3",
+      "msg": "Evento no visible si hay límite de 3 por día.",
+      "date": "2023-09-08",
+      "type": "evento"
+    },
+    {
+      "title": "Evento adicional 2",
+      "msg": "Evento no visible si hay límite de 3 por día.",
+      "date": "2023-09-09",
+      "type": "evento"
+    },
+    {
+      "title": "Evento adicional 3",
+      "msg": "Evento no visible si hay límite de 3 por día.",
+      "date": "2023-09-09",
+      "type": "evento"
+    },
+    {
+      "title": "Evento adicional 2",
+      "msg": "Evento no visible si hay límite de 3 por día.",
+      "date": "2023-09-10",
+      "type": "evento"
+    },
+    {
+      "title": "Evento adicional 3",
+      "msg": "Evento no visible si hay límite de 3 por día.",
+      "date": "2023-09-10",
+      "type": "evento"
+    },
+    {
+      "title": "Evento adicional 3",
+      "msg": "Evento no visible si hay límite de 3 por día.",
+      "date": "2023-02-20",
+      "type": "evento"
+    }
+  ]
+  

@@ -1,0 +1,142 @@
+/* Estilos base para dispositivos móviles */
+
+.calendar-container {
+    width: 100%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+  
+  }
+  
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0.5rem;
+  }
+  
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* Crea 7 columnas con igual ancho */
+    gap: 0.5px; /* Espaciado entre celdas */
+    width: 100%;
+  }
+  
+  
+  .day-name, .day-cell {
+    flex: 1 0 14%;  /* Esto toma aproximadamente el 14% del espacio disponible */
+    padding: 0.5rem;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .event {
+    display: block;
+    margin-top: 0.25rem;
+    font-size: 10px;
+    text-overflow: clip;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: left;
+    border-radius: 3px;  /* Ajusta este valor según el grado de redondeo que prefieras */
+    color: #f4f4f4;
+  
+  }
+  
+  .day-cell {
+    flex: 1 0 14%;  /* Esto toma aproximadamente el 14% del espacio disponible */
+    padding: 1px;
+    height: 12vh;
+    box-sizing: border-box;
+    /* margin: 2px; Agrega un ligero margen entre las celdas */
+    border: 1px solid #ccc; /* Un borde claro */
+    background-color: white; /* Un color de fondo suave */
+    border-radius: 12px; /* Bordes redondeados */
+    white-space: nowrap;  /* Evitar que el texto se rompa y pase a la siguiente línea */
+    overflow: hidden;  /* Ocultar cualquier texto que exceda el ancho de la celda */
+    text-overflow: clip;  /* Cortar el texto que exceda sin mostrar puntos suspensivos */
+    position: relative;  /* Establece un contexto de posicionamiento para los elementos internos */
+    cursor: pointer;
+  }
+  
+  .day-cell:hover {
+    background-color: rgba(221,248,224,255); /* Color verde */
+  }
+  
+  .has-event {
+    background-color: rgba(221,248,224,255); /* Color verde */
+  }
+  
+  
+  .cell-header {
+    padding: 0.2rem;
+    font-size: small;
+    display: flex;
+    justify-content: space-between; /* Separará sus hijos a los extremos del contenedor */
+    align-items: center; /* Centrará verticalmente sus hijos */
+  }
+  
+  .day-number {
+    width: 2rem;
+    border-radius: 5px;
+    color: rgba(65,153,65,255);
+    background-color: rgba(255,255,255,255);
+  }
+  
+  /* Color rojo para los Domingos */
+  .day-cell:nth-child(7n) {
+    background-color: rgba(255,206,212,255)
+  }
+  
+  .event-type1 {
+    background-color: rgba(21,122,0,255);  /* Ejemplo de color para tipo 1 */
+  }
+  
+  .event-type2 {
+    background-color: rgba(255,174,95,255);  /* Ejemplo de color para tipo 2 */
+  }
+  
+  .event-type3 {
+    background-color: rgba(0,168,230,255);  /* Ejemplo de color para tipo 3 */
+  }
+  
+  
+  /* 
+  /* Estilos para pantallas más grandes (Tablet y Desktop) */
+  
+  @media (min-width: 768px) {
+  
+    .cell-header {
+      font-size: 12px;  /* Aumenta un poco el tamaño de fuente para pantallas más grandes */
+    }
+  
+    .day-cell span {
+      font-size: 12px;  /* Aumenta un poco el tamaño de fuente para pantallas más grandes */
+      top: 10px;
+      right: 10px;
+    }
+  
+    .calendar-container {
+      max-width: 100%;
+      margin: 0 auto;  /* Centrado */
+      padding: 1rem;
+    }
+    .calendar-header {
+      padding: 1rem 0;
+    }
+  
+    .day-name, .day-cell {
+      padding: 1px;
+    }
+  
+    .event {
+      font-size: 12px;
+    }
+  
+    .day-number, .decimal-number {
+      font-size: 12px; /* Un poco más grande para pantallas más grandes */
+    }   
+  }
+  
+  
+  

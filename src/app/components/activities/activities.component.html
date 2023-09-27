@@ -1,0 +1,8 @@
+<h2 class="title">Available activities</h2>
+<div class="container">
+  <div (scroll)="onScroll()" style="height: 55vh; overflow-y: scroll;">
+    <div *ngFor="let record of displayedRecords" class="activities">
+      {{ record.email }}
+    </div>
+  </div>
+</div>
